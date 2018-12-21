@@ -19,36 +19,30 @@
 
 
 .NavItems {
-    margin: 0;
     padding: 0;
     list-style: none;
-    align-items: center;
     height: 100%;
 }
 
 .Item {
-    margin: 0;
-    box-sizing: border-box;
     display: flex;
     height: 100%;
-    align-items: center;
 }
 
 .Item a {
-    color: black;
     text-decoration: none;
-    padding: 16px 10px;
+    padding: 16px 15px;
     display: block;
     color: white;
 }
 
 .Item a:hover {
-    border-bottom: 4px solid #2DAD83;
+    border-bottom: 3px solid #2DAD83;
 }
 
 .SideDrawer {
     position: fixed;
-    width: 50%;
+    width: 60%;
     max-width: 300px;
     height: 100%;
     left: 0;
@@ -58,7 +52,6 @@
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
-
 }
 
 /*sidedraw just appear in mobile devices
@@ -75,4 +68,13 @@
 
 .Close {
     transform:  translateX(-100%);
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: #2DAD83;
+    cursor: pointer;
 }

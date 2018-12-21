@@ -12,7 +12,7 @@ const orderSummary = (props) => {
         })
     return (
         <div>
-            <Logo />
+            <Logo height="65px"/>
             <h3>Your order:</h3>
             <p>A delicius burger with the following ingredients:</p>
             <ul>

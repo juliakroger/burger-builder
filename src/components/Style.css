@@ -1,3 +1,8 @@
+.Content {
+    margin-top: 60px;
+}
+
+
 .Burger {
     width: 100%;
     margin: auto;
@@ -31,13 +36,14 @@
 
 .BuildControls {
     width: 100%;
-    background-color: #c15711;
+    background-color: #F77F9B;
     display: flex;
     flex-flow: column;
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
+    color: white;
 }
 
 .BuildControl {
@@ -53,20 +59,20 @@
     padding: 5px;
     margin: 0 5px;
     width: 80px;
-    border: 1px solid #AA6817;
+    border: 1px solid #fb95ae;
     cursor: pointer;
     outline: none;
 }
 
 .BuildControl button:disabled {
-    background-color: #AC9980;
-    border: 1px solid #7E7365;
+    background-color: #aca7a6;
+    border: 1px solid #aca7a6;
     color: #ccc;
     cursor: default;
 }
 
 .BuildControl button:hover:disabled {
-    background-color: #AC9980;
+    background-color: #aca7a6;
     color: #ccc;
     cursor: not-allowed;
 }
@@ -78,48 +84,48 @@
 }
 
 .BuildControl .Less {
-    background-color: #D39952;
+    background-color: #FBA9BC;
     color: white;
 }
 
 .BuildControl .More {
-    background-color: #8F5E1E;
+    background-color: #520027;
     color: white;
 }
 
 .BuildControl .Less:hover, .BuildControl .Less:active {
-    background-color: #DAA972;
+    background-color: #fbbec5;
     color: white;
 }
 
 .BuildControl .More:hover,.BuildControl .More:active {
-    background-color: #99703F;
+    background-color: #36001b;
     color: white;
 }
 
 
 .OrderButton {
-    background-color: #DAD735;
+    background-color: #A1EFD5;
     outline: none;
     cursor: pointer;
-    border: 1px solid #966909;
-    color: #966909;
+    border: 1px solid #2DAD83;
+    color: #2DAD83;
     font-family: inherit;
     font-size: 1.2em;
     padding: 7px 30px;
-    box-shadow: 2px 2px 2px #966909;
+    box-shadow: 2px 2px 2px #2DAD83;
 }
 
 .OrderButton:hover, .OrderButton:active {
-    background-color: #A0DB41;
-    border: 1px solid #966909;
-    color: #966909;
+    background-color: #D7FBEF;
+    border: 1px solid #2DAD83;
+    color: #2DAD83;
 }
 
 .OrderButton:disabled {
     background-color: #C7C6C6;
     cursor: not-allowed;
-    border: 1px solid #ccc;
+    border: 1px solid #888888;
     color: #888888;
 }
 
@@ -178,4 +184,39 @@
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Success {
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #3e764e;
+    color: #5C9210;
+    background-color: #d2eac9;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 7px 30px;
+    box-shadow: 2px 2px 2px #966909;
+}
+.Success:hover, .Success:active {
+    background-color: #adeaaf;
+    border: 1px solid #5C9210;
+    color: #529200;
+}
+
+.Danger {
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #b8757c;
+    color: #92331f;
+    background-color: #ebcece;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 7px 30px;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.Danger:hover, .Danger:active {
+    background-color: #ebb5b9;
+    border: 1px solid #92331f;
+    color: #92331f;
 }

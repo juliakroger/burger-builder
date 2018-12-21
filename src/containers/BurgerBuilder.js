@@ -6,9 +6,9 @@ import Modal from '../components/Modal';
 import OrderSummary from '../components/OrderSummary';
 
 const INGREDIENT_PRICES = {
-    salad: 0.5,
-    cheese: 1.0,
-    meat: 1.5,
+    salad: 0.3,
+    cheese: 0.6,
+    meat: 1.2,
     bacon: 0.7
 }
 
@@ -20,7 +20,7 @@ class BurgerBuilder extends Component {
             cheese: 0,
             meat: 0
         },
-        totalPrice: 4,
+        totalPrice: 3,
         purchaseable: false,
         purchasing: false
     }

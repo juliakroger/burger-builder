@@ -6,9 +6,9 @@ import Modal from '../components/Modal';
 import OrderSummary from '../components/OrderSummary';
 
 const INGREDIENT_PRICES = {
-    salad: 0.3,
-    cheese: 0.6,
-    meat: 1.2,
+    salad: 0.5,
+    cheese: 0.7,
+    meat: 1.3,
     bacon: 0.7
 }
 

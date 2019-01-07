@@ -1,6 +1,6 @@
 import React from 'react';
-import classes from './Style.css';
-import Logo from './Nav/Logo';
+import classes from '../Style.css';
+import Logo from '../Nav/Logo';
 
 
 const orderSummary = (props) => {

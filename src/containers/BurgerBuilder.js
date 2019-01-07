@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Burger from '../components/Burger';
-import BuildControls from '../components/BuildControls';
-import Modal from '../components/Modal';
-import OrderSummary from '../components/OrderSummary';
+import Burger from '../components/Burger/Burger';
+import BuildControls from '../components/BurgerControls/BuildControls';
+import Modal from '../components/UI/Modal';
+import OrderSummary from '../components/Order/OrderSummary';
 import axios from '../axios-orders';
-import Spinner from '../components/Spinnerload/Spinner';
+import Spinner from '../components/UI/Spinnerload/Spinner';
 
 const INGREDIENT_PRICES = {
     salad: 0.5,

@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Style.css';
 import Logo from './Logo';
 import NavItems from './NavItems';
-import Backdrop from '../Backdrop';
+import Backdrop from '../UI/Backdrop';
 
 
 const sideDrawer = (props) => {

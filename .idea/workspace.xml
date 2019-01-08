@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="299">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="482" />
     <option name="y" value="80" />
     <option name="width" value="670" />
@@ -171,7 +171,7 @@
       <workItem from="1546522397604" duration="562000" />
       <workItem from="1546880335480" duration="14260000" />
       <workItem from="1546898525521" duration="23000" />
-      <workItem from="1546949379537" duration="846000" />
+      <workItem from="1546949379537" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="Add the black drop when the modal is on">
       <created>1545313062671</created>
@@ -282,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64408000" />
+    <option name="totallyTimeSpent" value="64687000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -713,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="299">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

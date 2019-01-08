@@ -7,8 +7,6 @@ import Spinner from '../components/UI/Spinnerload/Spinner';
 import ErrorHandler from '../ErrorHandler/ErrorHandler';
 import axios from '../axios-orders';
 
-
-
 const INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 0.7,
@@ -31,7 +29,6 @@ class BurgerBuilder extends Component {
                 this.setState({ingredients: response.data})
             })
     }
-
 
     updatePurchaseState(ingredients){
         const sum = Object.keys(ingredients)

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35ec705-063e-4cd7-ad09-1149cf4f772c" name="Default Changelist" comment="" />
+    <list default="true" id="e35ec705-063e-4cd7-ad09-1149cf4f772c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="529">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -116,7 +119,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -170,7 +173,8 @@
       <workItem from="1546880335480" duration="14260000" />
       <workItem from="1546898525521" duration="23000" />
       <workItem from="1546949379537" duration="1444000" />
-      <workItem from="1546951991244" duration="139000" />
+      <workItem from="1546951991244" duration="182000" />
+      <workItem from="1546952532595" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Add the black drop when the modal is on">
       <created>1545313062671</created>
@@ -288,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65145000" />
+    <option name="totallyTimeSpent" value="65236000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -301,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1360" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40576497" weight="0.4581431" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.28347045" />
@@ -720,7 +723,7 @@
     <entry file="file://$PROJECT_DIR$/src/ErrorHandler/ErrorHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

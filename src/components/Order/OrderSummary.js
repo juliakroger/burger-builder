@@ -24,7 +24,6 @@ const orderSummary = (props) => {
             <p>Continue to Checkout?</p>
             <button onClick={props.cancelPurchase} className={classes.Danger}>Cancel</button>
             <button className={classes.Success} onClick={props.continuePurchase}>Continue</button>
-
         </div>
     );
 };

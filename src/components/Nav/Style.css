@@ -27,16 +27,13 @@
 .Item {
     display: flex;
     height: 100%;
-}
-
-.Item a {
     text-decoration: none;
     padding: 16px 15px;
     display: block;
     color: white;
 }
 
-.Item a:hover {
+.Item:hover {
     border-bottom: 3px solid #2DAD83;
 }
 

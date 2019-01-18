@@ -15,6 +15,7 @@ class App extends Component {
                   <Route path="/checkout" component={CheckOut}/>
                   <Route path="/orders" component={PastOrders} />
                   <Route path="/buildburger" component={BurgerBuilder}/>
+                  <Route path="/"><h1>Welcome to the burger builder</h1></Route>
               </Switch>
           </Layout>
       </BrowserRouter>

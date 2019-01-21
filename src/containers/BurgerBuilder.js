@@ -9,7 +9,7 @@ import Modal from '../components/UI/Modal';
 import OrderSummary from '../components/Order/OrderSummary';
 import Spinner from '../components/UI/Spinnerload/Spinner';
 import ErrorHandler from '../ErrorHandler/ErrorHandler';
-import * as actions from "../store/actions";
+import * as actions from "../store/actions/actions";
 
 class BurgerBuilder extends Component {
     state = {

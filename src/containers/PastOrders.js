@@ -31,7 +31,6 @@ class PastOrders extends Component {
         <div>
             <h1>Past Orders</h1>
             {this.state.orders.map((order,index) => (
-
                 <Order key={order.id}
                        index={index}
                        price={order.price}

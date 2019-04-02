@@ -9,7 +9,7 @@ import Modal from '../components/UI/Modal';
 import OrderSummary from '../components/Order/OrderSummary';
 import Spinner from '../components/UI/Spinnerload/Spinner';
 import ErrorHandler from '../ErrorHandler/ErrorHandler';
-import * as actions from "../store/actions/actions";
+import * as actions from "../store/actions/actionTypes";
 
 class BurgerBuilder extends Component {
     state = {
@@ -96,8 +96,8 @@ class BurgerBuilder extends Component {
 
 const mapStateToProps = state => {
     return {
-        ings: state.ingredients,
-        totalPrice: state.totalPrice
+        ings: state.burgerBuilder.ingredients,
+        totalPrice: state.burgerBuilder.totalPrice
     }
 }
 const mapDispatchToProps = dispatch => {

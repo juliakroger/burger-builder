@@ -265,3 +265,9 @@
     text-align: start;
 }
 
+
+.Auth {
+    margin: 20px auto;
+    min-width: 300px;
+    width: 40%;
+}

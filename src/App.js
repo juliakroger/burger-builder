@@ -3,6 +3,7 @@ import Layout from './containers/Layout';
 import BurgerBuilder from './containers/BurgerBuilder';
 import CheckOut from './containers/Checkout';
 import PastOrders from './containers/PastOrders';
+import Auth from './containers/Auth';
 import {BrowserRouter,Switch,Route } from "react-router-dom";
 
 
@@ -15,7 +16,7 @@ class App extends Component {
                   <Route path="/checkout" component={CheckOut}/>
                   <Route path="/orders" component={PastOrders} />
                   <Route path="/buildburger" component={BurgerBuilder}/>
-                  <Route path="/"><h1>Welcome to the burger builder</h1></Route>
+                  <Route path="/" component={Auth}/>
               </Switch>
           </Layout>
       </BrowserRouter>

@@ -36,6 +36,9 @@ const reducer = (state=initialState, action) => {
         error: action.error,
       }
 
+    case act.AUTH_LOGOUT:
+      return initialState;
+
     default:
       return state;
   }

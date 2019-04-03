@@ -13,6 +13,22 @@ export const siginStart = () => {
   };
 };
 
+export const logout = () => {
+  localStorage.removeItem('token')
+  localStorage.removeItem('expirationDate')
+  return {
+    type: act.AUTH_LOGOUT
+  };
+};
+
+export const checkoutTimeOut = (timeOut) => {
+  return dispatch => {
+    setTimeout(() => {
+      dispatch(logout());
+    }, timeOut * 1000);
+  }
+};
+
 export const authSucess = (authData) => {
   return {
     type: act.AUTH_SUCESS,
@@ -51,7 +67,13 @@ export const signIn = (email, password) => {
       returnSecureToken: true
     };
     axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCqSumm0IiFJyygXYm3dFrUZnwjfjdELu4', authData)
-        .then(response => dispatch(authSucess(response.data)))
+        .then(response => {
+          dispatch(authSucess(response.data))
+          const expirationDate = new Date( new Date().getTime() + response.data.expiresIn * 1000);
+          localStorage.setItem('token', response.data.idToken)
+          localStorage.setItem('expirationDate', expirationDate)
+          dispatch(checkoutTimeOut(response.data.expiresIn))
+        })
         .catch(error => dispatch(authFail(error)))
   };
 };
